@@ -1,0 +1,2389 @@
+body, h1, h2, h3, h4, h5, h6, p, pre, ul, ol, li, dl, dt, dd, form, input, textarea, select, option {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    font-size: 14px;
+}
+img {
+    border: none;
+}
+/*-----------------------------------------------------------------*/
+.head{
+	width: 100%;
+	height: 699px;
+	/*background: red;*/
+	float: left;
+}
+/*-----------------------喵，欢迎来到天猫商城----------------------*/
+.headtop{
+	width: 100%;
+	height: 32px;
+	background: #f2f2f2;
+	border-bottom: 1px solid #e5e5e5;
+	float: left;
+}
+.headtop .headtopl{
+	width: 300px;
+	height: 100%;
+	/*background: red;*/
+	margin-left: 45px;
+	float: left;
+}
+.headtop div span{
+    font-size: 12px;
+    color: #999;
+    line-height: 32px;
+    margin-right: 15px;
+}
+.headtop div span a{
+	font-size: 12px;
+    color: #999;
+    line-height: 32px;
+}
+.headtop div span a:hover{
+	color: #c40000;
+}
+/*----------------------------*/
+.headtopr{
+	width: 650px;
+	height: 32px;
+	/*background: blue;*/
+	float: right;
+	margin-right:30px;
+}
+.headtopr ul{
+	width: 100%;
+	height: 100%;
+}
+.headtopr ul li{
+	float: left;
+	margin-right: 18px;
+	line-height: 32px;
+	color: #999;
+	position: relative;
+}
+.headtopr ul li a{
+	font-size: 12px;
+	color: #999;
+}
+.headtopr .dhtp1{
+	padding-left: 15px;
+	background: url(../img/15.jpg) no-repeat 0 11px;
+}
+.headtopr .dhtp2{
+	padding-left: 15px;
+	background: url(../img/12.jpg) no-repeat 0 11px;
+}
+.headtopr .dhtp3{
+	padding-left: 15px;
+	background: url(../img/13.jpg) no-repeat 0 11px;
+}
+.headtopr .dhtp4{
+	padding-left: 15px;
+	background: url(../img/14.jpg) no-repeat 0 11px;
+}
+.headtopr ul li a:hover{
+	color: #c40000;
+}
+/*-------------------------天猫搜索--------------------------------*/
+.headtop2{
+	width: 100%;
+	height: 130px;
+	/*background: red;*/
+	float: left;
+}
+.headtop2l{
+	float: left;
+}
+.headtop2 #sousuok{
+	width: 407px;
+	height: 30px;
+	border: 3px solid #c40000;
+	font-size: 15px;
+	color: #666;
+	float: left;
+	margin-left: 195px;
+	margin-top: 40px;
+}
+.headtop2 #sousuo{
+	width: 87px;
+	height: 36px;
+	background: #c40000;
+	border: none;
+	font-size: 16px;
+	color: #fff;
+	margin-top: 40px;
+	cursor: pointer;
+}
+.headtop2 ul{
+	width: 550px;
+	height: 30px;
+	/*background: blue;*/
+	float: left;
+	margin-left: 195px;
+}
+.headtop2 ul li{
+	float: left;
+	color: #999;
+	margin-right: 10px;
+}
+.headtop2 ul li a{
+	color: #999;
+	font-size: 14px;
+}
+.headtop2 .bianse{
+	color: #c40000;
+}
+/*-------------------------天猫选项--------------------------------*/
+.headtop3{
+	width: 100%;
+	height: 36px;
+	background: #dd2727;
+	float: left;
+}
+.headtop3 .shangpin{
+	float: left;
+	margin-left: 45px;
+	margin-right: 15px;
+}
+.headtop3 .da{
+	display: block;
+	float: left;
+	width: 120px;
+	height: 100%;
+	position: relative;
+}
+.headtop3 .za{
+	display: block;
+	float: left;
+	width: 94px;
+	height: 100%;
+	line-height: 36px;
+	text-align: center;
+	font-size: 16px;
+	color: #fff;
+	position: relative;
+}
+.headtop3 .xa{
+	display: block;
+	float: left;
+	width: 78px;
+	height: 100%;
+	line-height: 36px;
+	text-align: center;
+	font-size: 16px;
+	color: #fff;
+	position: relative;
+}
+.headtop3 .da .mt{
+	position: absolute;
+	top: -12px;
+	left: 40px;
+	display: none;
+}
+.headtop3 .za .mt1{
+    position: absolute;
+    top: -12px;
+    left: 28px;
+    display: none;
+}
+.headtop3 .xa .mt2{
+    position: absolute;
+    top: -12px;
+    left: 19px;
+    display: none;
+}
+.headtop3 .dt{
+	width: 90px;
+	height: 100%;
+	margin-left: 15px;
+}
+/*-------------------------天猫动图--------------------------------*/
+.headin{
+	width: 100%;
+	height: 500px;
+	/*background:red;*/
+	float: left;
+	position: relative;
+}
+.headinbox{
+	width: 100%;
+	height: 100%;
+	background: blue;
+	position: absolute;
+	top: 0;
+	left: 0;
+	float: left;
+}
+.headinbox div{
+	width: 1180px;
+	display: block;
+	margin:0 auto;
+}
+.headin .lunboniu{
+	width: 220px;
+	height: 20px;
+	position: absolute;
+	top:100%;
+	margin-top:-40px; 
+	left:50%;
+	margin-left: -80px;
+	z-index: 5;
+}
+.headin .lunboniu li{
+	width: 19px;
+	height: 19px;
+	background: #666;
+	border-radius: 50%;
+	float: left;
+	margin-right: 15px;
+	opacity: 0.8;
+	border: 1px solid #666;
+}
+.headin .headinone{
+	background: url(../img/1b.jpg) no-repeat 0 0;
+}
+.headin .headintwo{
+	background: url(../img/5b.jpg) no-repeat 0 0;
+}
+.headin .headinthree{
+	background: url(../img/2b.jpg) no-repeat 0 0;
+}
+.headin .headinfour{
+	background: url(../img/4b.jpg) no-repeat 0 0;
+}
+.headin .headinfive{
+	background: url(../img/3b.jpg) no-repeat 0 0;
+}
+.headin .headinsix{
+	background: url(../img/6b.jpg) no-repeat 0 0;
+}
+/*-----------------------------------*/
+.headinleft{
+	width: 200px;
+	height: 500px;
+	background: #e9e1ec;
+	z-index: 100;
+	margin-left: 45px;
+	position: relative;
+}
+.headinleft .headinleft_in li{
+    width: 155px;
+    height: 21px;
+    padding-left:45px;
+    /*background: red;*/
+    /*padding-left: 10px;*/
+    padding-top: 10px;
+    float: left; 
+    position: relative;
+}
+.headinleft .headinleft_in li a{
+	display: block;
+	width: 155px;
+	height: 21px;
+	font-size: 14px;
+	color: #000;
+}
+.headinleft .headinleft_in li a:hover{
+	color: #fc0343;
+}
+.headinleft .headinleft_in1{
+	background: url(../img/20.jpg) no-repeat 10px 13px;
+}
+.headinleft .headinleft_in2{
+	background: url(../img/20.jpg) no-repeat 10px -20px;
+}
+.headinleft .headinleft_in3{
+	background: url(../img/20.jpg) no-repeat 10px -53px;
+}
+.headinleft .headinleft_in4{
+	background: url(../img/20.jpg) no-repeat 10px -88px;
+}
+.headinleft .headinleft_in5{
+	background: url(../img/20.jpg) no-repeat 10px -118px;
+}
+.headinleft .headinleft_in6{
+	background: url(../img/20.jpg) no-repeat 10px -153px;
+}
+.headinleft .headinleft_in7{
+	background: url(../img/20.jpg) no-repeat 10px -185px;
+}
+.headinleft .headinleft_in8{
+	background: url(../img/20.jpg) no-repeat 10px -218px;
+}
+.headinleft .headinleft_in9{
+	background: url(../img/20.jpg) no-repeat 10px -251px;
+}
+.headinleft .headinleft_in10{
+	background: url(../img/20.jpg) no-repeat 10px -285px;
+}
+.headinleft .headinleft_in11{
+	background: url(../img/20.jpg) no-repeat 10px -320px;
+}
+.headinleft .headinleft_in12{
+	background: url(../img/20.jpg) no-repeat 10px -350px;
+}
+.headinleft .headinleft_in13{
+	background: url(../img/20.jpg) no-repeat 10px -385px;
+}
+.headinleft .headinleft_in14{
+	background: url(../img/20.jpg) no-repeat 10px -418px;
+}
+.headinleft .headinleft_in15{
+	background: url(../img/20.jpg) no-repeat 10px -450px;
+}
+.headinleft .headinleft_in16{
+	background: url(../img/20.jpg) no-repeat 10px -485px;
+}
+.headinleft_in1 div{
+	width: 852px;
+	height: 500px;
+	z-index: 200;
+	/*background: #f40;*/
+	position: absolute;
+	top: 0;
+	left: 200px;
+	display: none;
+}
+.headinleft_in2 div{
+	width: 852px;
+	height: 500px;
+	z-index: 200;
+	/*background: #f40;*/
+	position: absolute;
+	top: -31px;
+	left: 200px;
+	display: none;
+}
+.headinleft_in3 div{
+	width: 852px;
+	height: 500px;
+	z-index: 200;
+	/*background: #f40;*/
+	position: absolute;
+	top: -62px;
+	left: 200px;
+	display: none;
+}
+.headinleft_in4 div{
+	width: 852px;
+	height: 500px;
+	z-index: 200;
+	/*background: #f40;*/
+	position: absolute;
+	top: -93px;
+	left: 200px;
+	display: none;
+}
+.headinleft_in5 div{
+	width: 852px;
+	height: 500px;
+	z-index: 200;
+	/*background: #f40;*/
+	position: absolute;
+	top: -124px;
+	left: 200px;
+	display: none;
+}
+.headinleft_in6 div{
+	width: 852px;
+	height: 500px;
+	z-index: 200;
+	/*background: #f40;*/
+	position: absolute;
+	top: -155px;
+	left: 200px;
+	display: none;
+}
+.headinleft_in7 div{
+	width: 852px;
+	height: 500px;
+	z-index: 200;
+	/*background: #f40;*/
+	position: absolute;
+	top: -186px;
+	left: 200px;
+	display: none;
+}
+.headinleft_in1:hover{
+	background: #fff;
+}
+.headinleft_in2:hover{
+	background: #fff;
+}
+.headinleft_in3:hover{
+	background: #fff;
+}
+.headinleft_in4:hover{
+	background: #fff;
+}
+.headinleft_in5:hover{
+	background: #fff;
+}
+.headinleft_in6:hover{
+	background: #fff;
+}
+.headinleft_in7:hover{
+	background: #fff;
+}
+/*-----------------------------------*/
+.headinright{
+	width: 100px;
+	height: 480px;
+	background: #747474;
+	z-index: 100;
+	position: absolute;
+	top: 10px;
+	right: 104px;
+	opacity: 0.8;
+}
+.headinright1{
+	width: 100%;
+	height: 90px;
+	/*background: red;*/
+}
+.headinright1 div{
+	width: 70px;
+	height: 70px;
+	margin: 12px auto;
+	float: left;
+	margin-left: 15px;
+}
+.headinright2{
+	width: 80px;
+	height: 83px;
+	/*background: blue;*/
+	margin:0 auto;
+	border-bottom: 1px dashed #515151;
+}
+.headinright2 span{
+	font-size: 12px;
+	color: #fff;
+	margin-left: 15px;
+}
+.headinright2 input{
+	width: 70px;
+	height: 25px;
+	border: none;
+	background: #dd2727;
+	font-size: 12px;
+	color: #fff;
+	border-radius: 30px;
+	margin-left: 5px;
+	margin-top: 5px;
+	cursor: pointer;
+}
+.headinright2 input:hover{
+	text-decoration:underline;  
+}
+.headinright2 a{
+	display: block;
+	width: 80px;
+	height: 20px;
+	line-height: 30px;
+	font-size: 12px;
+	color: #fff;
+    margin-left: 15px;
+}
+.headinright2 a:hover{
+	text-decoration: underline; 
+}
+.headinright3{
+	width: 100%;
+	height: 147px;
+    /*background: red;*/
+}
+.headinright3 img{
+	margin-left: 10px;
+}
+.headinright3 a{
+	display: block;
+	width: 80px;
+	height: 20px;
+	line-height: 30px;
+	font-size: 12px;
+	color: #fff;
+    margin-left: 25px;	
+}
+.headinright3 a:hover{
+	text-decoration: underline; 	
+}
+.headinright4{
+	width: 100%;
+	height: 154px;
+	/*background: blue;*/
+}
+.headinright4 .headinright41{
+	width: 100%;
+	height: 24px;
+	background: #3c3c3c;
+	font-size: 12px;
+	color: #fff;
+	text-align: center;
+	line-height: 24px
+}
+.headinright4 .headinright42 img{
+	width: 60px;
+	height: 60px;
+}
+.headinright4 .headinright42{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin:15px auto;
+}
+.headinright4 a{
+	font-size: 12px;
+	color: #fff;
+	display: block;
+	text-align: center;
+}
+/*-----------------------------------*/
+.main{
+	width: 100%;
+	/*height: 12064px;*/
+	height: 7751px;
+	background: #f5f5f5;
+	float: left;
+}
+/*--------------517通信狂欢节 裸奔狂欢我要去--------------*/
+.main1{
+	width: 100%;
+	height: 90px;
+	float: left;
+}
+.main2{
+	width: 1240px;
+	height: 269px;
+	/*background: red;*/
+	margin-left: 45px;
+	float: left;
+}
+.main2 div{
+	float: left;
+	width: 238px;
+	height: 100%;
+	margin-right: 10px;
+}
+/*------------------热门品牌----------------------*/
+.main3{
+	width: 1230px;
+	height: 394px;
+	/*background: red;*/
+	float: left;
+	margin-left: 45px;
+	margin-top: 67px;
+}
+.main3 .main3top{
+	width: 100%;
+	height: 23px;
+/*	background: red;*/
+}
+.main3 .main3top span{
+	float: left;
+	font-size: 16px;
+	color: #000;
+	margin-left: 15px;
+}
+.main3 .main3top p{
+	float: left;
+	font-size: 15px;
+	color: #000;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+/*----------------------------------------------*/
+.main3in{
+	width: 100%;
+	height: 371px;
+	/*background: red;*/
+	float: left;
+}
+.main3inl{
+	width: 245px;
+	height: 100%;
+	/*background: blue;*/
+	float: left;
+}
+.main3inl a img{
+	width: 100%;
+	height: 100%;
+}
+.main3inr{
+	width: 738px;
+	height: 371px;
+	/*background: blue;*/
+	float: left;
+}
+.main3inr div{
+	float: left;
+	background: #f40;
+	width: 122px;
+	height: 92px;
+	border-left: 1px solid #f5f5f5;
+	border-bottom: 1px solid #f5f5f5;
+	position: relative;
+}
+.mask{
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 20;
+}
+.main3inr div:hover .mask{
+	display: block;
+}
+.main3inr2{
+	width: 247px;
+	height: 371px;
+	/*background: blue;*/
+	float: left;
+}
+.main3inr2 ul{
+	width: 247px;
+	height: 371px;
+	/*background: red;	*/
+	margin-left: 1px;
+}
+.main3inr2 ul li{
+	display: block;
+	width: 210px;
+	height: 75px;
+	padding:9px 18px;
+	background: #f9f8f3;
+}
+.main3inr2 ul li:hover .main3inr2_1{
+	opacity: 0.7;
+}
+.main3inr2 ul li:hover .main3inr2_2 a{
+	color: red;
+}
+.main3inr2_1{
+	width: 74px;
+	height: 74px;
+	background: #fff;
+	float: left;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.main3inr2_1 img{
+	width: 74px;
+	height: 37px;
+	margin-top: 18px;
+}
+.main3inr2_2{
+	width: 120px;
+	height: 40px;
+	/*background: red;*/
+	float: left;
+	padding:17px 0;
+}
+.main3inr2_2 a{
+	display: block;
+	font-size: 13px;
+	color: #000;
+	margin-top: 2px;
+	margin-left: 15px;
+}
+.main3inr2_2 a:hover{
+	color: #dd2727;
+}
+/*---潮流前言 手机酷玩 品质生活 国际海购 个性推荐---*/
+.main4{
+	width: 1240px;
+	height: 577px;
+	/*background: #f40;*/
+	margin-left: 45px;
+	margin-top: 31px;
+	float: left;
+}
+.main4 ul li{
+	width: 238px;
+	height: 477px;
+	background: #fff;
+	float: left;
+	margin-right: 10px;
+}
+.main4 ul li a{
+	display: block;
+    width: 238px;
+	height: 477px;
+}
+.main4 ul li div{
+	width: 100%;
+	height: 36px;
+	float: left;
+}
+.main4 .main4in1{
+    width: 200px;
+    height: 220px;
+    background: #fff;
+    margin-left: 19px;
+    border-bottom: 1px solid #eee;
+    float: left;
+    position: relative;
+}
+.main4 .main4in1 span{
+	font-size: 20px;
+	color: #000;
+	display: block;
+	text-align: center;
+	margin-top: 15px;
+}
+.main4 .main4in1 p{
+	font-size: 12px;
+	color: #888;
+	display: block;
+	text-align: center;
+}
+.main4 .main4in1 div{
+	width: 140px;
+	height: 140px;
+	background: #f7f7f7;
+	position: absolute;
+	top:65px;
+	left: 30px;
+	border-radius: 50%;
+}
+.main4 .main4in1 div img{
+	width: 147px;
+	height: 147px;
+}
+.main4 .main4in2{
+	width: 200px;
+    height: 220px;
+    background: #fff;
+    margin-left: 19px;
+    float: left;
+    position: relative;
+}
+.main4 .main4in2 span{
+	font-size: 20px;
+	color: #000;
+	display: block;
+	text-align: center;
+	margin-top: 15px;
+}
+.main4 .main4in2 p{
+	font-size: 12px;
+	color: #888;
+	display: block;
+	text-align: center;
+}
+.main4 .main4in2 div{
+	width: 140px;
+	height: 140px;
+	background: #f7f7f7;
+	position: absolute;
+	top:65px;
+	left: 30px;
+	border-radius: 50%;
+}
+.main4 .main4in2 div img{
+	width: 147px;
+	height: 147px;
+}
+.main4 .main4bottom{
+	width: 100%;
+	height: 90px;
+	/*background: red;*/
+	float: left;
+	margin-top: 10px;
+}
+/*------------------亲子时光---------------------------*/
+.main5{
+	float: left;
+	width: 1229px;
+	height: 470px;
+	/*background: #f40;*/
+	margin-left: 45px;
+	margin-top: 30px;
+}
+.main5 .main5top{
+	width: 100%;
+	height: 30px;
+	/*background: blue;*/
+	float: left;
+}
+.main5 .main5top div{
+	width: 5px;
+	height: 20px;
+	float: left;
+	background: #f7a945;
+}
+.main5 .main5top span{
+	float: left;
+	font-size: 16px;
+	color: #000;
+	margin-left: 10px;
+}
+.main5 .main5top p{
+	float: left;
+	font-size: 14px;
+	color: #000;
+	margin-left: 10px;
+	margin-top: 3px;
+}
+.main5 .main5top ul{
+	float: right;
+	margin-right: 10px;
+}
+.main5 .main5top ul li{
+	float: left;
+	margin-left: 24px;
+}
+.main5 .main5top ul li a{
+	font-size: 14px;
+	color: #000;
+	line-height: 30px;
+}
+.main5 .main5top ul li a:hover{
+	text-decoration: underline;
+}
+/*----------------------------------------------*/
+.main5inl{
+	width: 246px;
+	height: 440px;
+	background: #f40;
+	float: left;
+}
+.main5inl img{
+	width: 246px;
+	height: 440px;
+}
+/*----------------------------------------------*/
+.main5inr{
+	width: 735px;
+	height: 441px;
+	/*background: #f40;*/
+	float: left;
+	position: relative;
+}
+.main5inr div{
+	width: 244px;
+	height: 219px;
+	background: #fff;
+	border-top: 1px solid #f5f5f5;
+	border-right: 1px solid #f5f5f5;
+	float: left;
+	position: relative;
+}
+.main5inr div a{
+	display: block;
+	width: 244px;
+	height: 219px;
+}
+.main5inr div a span{
+	font-size: 17px;
+	color: #000;
+	display: block;
+	padding-left: 25px;
+	padding-top: 25px;
+}
+.main5inr div a p{
+	font-size: 14px;
+	color: #f7a945;
+	display: block;
+	padding-left: 25px;
+}
+.main5inr .main5inr1{
+	width: 145px;
+	height: 145px;
+	position: absolute;
+	top: 75px;
+	left: 95px;
+}
+.main5inr .main5inr2{
+	width: 145px;
+	height: 145px;
+	position: absolute;
+	top: 75px;
+	left: 95px;
+}
+.main5inr .main5inr3{
+	width: 145px;
+	height: 145px;
+	position: absolute;
+	top: 75px;
+	left: 95px;
+}
+.main5inr .main5inr4{
+	width: 145px;
+	height: 145px;
+	position: absolute;
+	top: 75px;
+	left: 95px;
+}
+.main5inr .main5inr5{
+	width: 145px;
+	height: 145px;
+	position: absolute;
+	top: 75px;
+	left: 95px;
+}
+.main5inr .main5inr6{
+	width: 145px;
+	height: 145px;
+	position: absolute;
+	top: 75px;
+	left: 95px;
+}
+/*----------------------------------------------*/
+.main5inr2{
+	width: 248px;
+	height: 440px;
+	background: #fff;
+	float: left;
+	position: relative;
+}
+.main5inr2 div{
+	width: 248px;
+	height: 146px;
+	border-bottom: 1px solid #f5f5f5;
+	position: relative;
+}
+.main5inr2 div a{
+	display: block;
+	width: 248px;
+	height: 146px;
+}
+.main5inr2 div span{
+	font-size: 17px;
+	color: #000;
+	display: block;
+	padding-left: 25px;
+	padding-top: 25px;
+}
+.main5inr2 div p{
+	font-size: 14px;
+	color: #f7a945;
+	display: block;
+	padding-left: 25px;
+}
+.main5inr2 div img{
+	width: 90px;
+	height: 90px;
+}
+.main5inr21{
+	position: absolute;
+	top: 55px;
+	left: 155px;
+}
+.main5inr22{
+	position: absolute;
+	top: 55px;
+	left: 155px;
+}
+.main5inr23{
+	position: absolute;
+	top: 55px;
+	left: 155px;
+}
+/*--------------------------------------------------------*/
+/*---------------------户外出行---------------------------*/
+.main6{
+	float: left;
+	width: 1229px;
+	height: 570px;
+	/*background: #f40;*/
+	margin-left: 45px;
+	margin-top: 30px;
+}
+.main6 .main6top{
+	width: 100%;
+	height: 30px;
+	/*background: blue;*/
+	float: left;
+}
+.main6 .main6top div{
+	width: 5px;
+	height: 20px;
+	float: left;
+	background: #19c8a9;
+}
+.main6 .main6top span{
+	float: left;
+	font-size: 16px;
+	color: #000;
+	margin-left: 10px;
+}
+.main6 .main6top p{
+	float: left;
+	font-size: 14px;
+	color: #000;
+	margin-left: 10px;
+	margin-top: 3px;
+}
+.main6 .main6top ul{
+	float: right;
+	margin-right: 10px;
+}
+.main6 .main6top ul li{
+	float: left;
+	margin-left: 24px;
+}
+.main6 .main6top ul li a{
+	font-size: 14px;
+	color: #000;
+	line-height: 30px;
+}
+.main6 .main6top ul li a:hover{
+	text-decoration: underline;
+}
+/*----------------------------------------------*/
+.main6inl{
+	width: 246px;
+	height: 440px;
+	background: #f40;
+	float: left;
+}
+.main6inl img{
+	width: 246px;
+	height: 440px;
+}
+/*----------------------------------------------*/
+.main6inr{
+	width: 735px;
+	height: 441px;
+	/*background: #f40;*/
+	float: left;
+	position: relative;
+}
+.main6inr div{
+	width: 244px;
+	height: 219px;
+	background: #fff;
+	border-top: 1px solid #f5f5f5;
+	border-right: 1px solid #f5f5f5;
+	float: left;
+	position: relative;
+}
+.main6inr div a{
+	display: block;
+	width: 244px;
+	height: 219px;
+}
+.main6inr div a span{
+	font-size: 17px;
+	color: #000;
+	display: block;
+	padding-left: 25px;
+	padding-top: 25px;
+}
+.main6inr div a p{
+	font-size: 14px;
+	color: #19c8a9;
+	display: block;
+	padding-left: 25px;
+}
+.main6inr .main6inr1{
+	width: 145px;
+	height: 145px;
+	position: absolute;
+	top: 75px;
+	left: 95px;
+}
+.main6inr .main6inr2{
+	width: 145px;
+	height: 145px;
+	position: absolute;
+	top: 75px;
+	left: 95px;
+}
+.main6inr .main6inr3{
+	width: 145px;
+	height: 145px;
+	position: absolute;
+	top: 75px;
+	left: 95px;
+}
+.main6inr .main6inr4{
+	width: 145px;
+	height: 145px;
+	position: absolute;
+	top: 75px;
+	left: 95px;
+}
+.main6inr .main6inr5{
+	width: 145px;
+	height: 145px;
+	position: absolute;
+	top: 75px;
+	left: 95px;
+}
+.main6inr .main6inr6{
+	width: 145px;
+	height: 145px;
+	position: absolute;
+	top: 75px;
+	left: 95px;
+}
+/*----------------------------------------------*/
+.main6inr2{
+	width: 248px;
+	height: 440px;
+	background: #fff;
+	float: left;
+	position: relative;
+}
+.main6inr2 div{
+	width: 248px;
+	height: 146px;
+	border-bottom: 1px solid #f5f5f5;
+	position: relative;
+}
+.main6inr2 div a{
+	display: block;
+	width: 248px;
+	height: 146px;
+}
+.main6inr2 div span{
+	font-size: 17px;
+	color: #000;
+	display: block;
+	padding-left: 25px;
+	padding-top: 25px;
+}
+.main6inr2 div p{
+	font-size: 14px;
+	color: #19c8a9;
+	display: block;
+	padding-left: 25px;
+}
+.main6inr2 div img{
+	width: 90px;
+	height: 90px;
+}
+.main6inr21{
+	position: absolute;
+	top: 55px;
+	left: 155px;
+}
+.main6inr22{
+	position: absolute;
+	top: 55px;
+	left: 155px;
+}
+.main6inr23{
+	position: absolute;
+	top: 55px;
+	left: 155px;
+}
+.main6bottom{
+	width: 1230px;
+	height: 90px;
+	/*background: red;*/
+	margin-top: 10px;
+	float: left;
+}
+/*--------------------------------------------------------*/
+/*---------------------打造爱巢---------------------------*/
+.main7{
+	float: left;
+	width: 1229px;
+	height: 470px;
+	/*background: #f40;*/
+	margin-left: 45px;
+	margin-top: 30px;
+}
+.main7 .main7top{
+	width: 100%;
+	height: 30px;
+	/*background: blue;*/
+	float: left;
+}
+.main7 .main7top div{
+	width: 5px;
+	height: 20px;
+	float: left;
+	background: #f15453;
+}
+.main7 .main7top span{
+	float: left;
+	font-size: 16px;
+	color: #000;
+	margin-left: 10px;
+}
+.main7 .main7top p{
+	float: left;
+	font-size: 14px;
+	color: #000;
+	margin-left: 10px;
+	margin-top: 3px;
+}
+.main7 .main7top ul{
+	float: right;
+	margin-right: 10px;
+}
+.main7 .main7top ul li{
+	float: left;
+	margin-left: 24px;
+}
+.main7 .main7top ul li a{
+	font-size: 14px;
+	color: #000;
+	line-height: 30px;
+}
+.main7 .main7top ul li a:hover{
+	text-decoration: underline;
+}
+/*----------------------------------------------*/
+.main7inl{
+	width: 246px;
+	height: 440px;
+	background: #f40;
+	float: left;
+}
+.main7inl img{
+	width: 246px;
+	height: 440px;
+}
+/*----------------------------------------------*/
+.main7inr{
+	width: 735px;
+	height: 441px;
+	/*background: #f40;*/
+	float: left;
+	position: relative;
+}
+.main7inr div{
+	width: 244px;
+	height: 219px;
+	background: #fff;
+	border-top: 1px solid #f5f5f5;
+	border-right: 1px solid #f5f5f5;
+	float: left;
+	position: relative;
+}
+.main7inr div a{
+	display: block;
+	width: 244px;
+	height: 219px;
+}
+.main7inr div a span{
+	font-size: 17px;
+	color: #000;
+	display: block;
+	padding-left: 25px;
+	padding-top: 25px;
+}
+.main7inr div a p{
+	font-size: 14px;
+	color: #f15453;
+	display: block;
+	padding-left: 25px;
+}
+.main7inr .main7inr1{
+	width: 145px;
+	height: 145px;
+	position: absolute;
+	top: 75px;
+	left: 95px;
+}
+.main7inr .main7inr2{
+	width: 145px;
+	height: 145px;
+	position: absolute;
+	top: 75px;
+	left: 95px;
+}
+.main7inr .main7inr3{
+	width: 145px;
+	height: 145px;
+	position: absolute;
+	top: 75px;
+	left: 95px;
+}
+.main7inr .main7inr4{
+	width: 145px;
+	height: 145px;
+	position: absolute;
+	top: 75px;
+	left: 95px;
+}
+.main7inr .main7inr5{
+	width: 145px;
+	height: 145px;
+	position: absolute;
+	top: 75px;
+	left: 95px;
+}
+.main7inr .main7inr6{
+	width: 145px;
+	height: 145px;
+	position: absolute;
+	top: 75px;
+	left: 95px;
+}
+/*----------------------------------------------*/
+.main7inr2{
+	width: 248px;
+	height: 440px;
+	background: #fff;
+	float: left;
+	position: relative;
+}
+.main7inr2 div{
+	width: 248px;
+	height: 146px;
+	border-bottom: 1px solid #f5f5f5;
+	position: relative;
+}
+.main7inr2 div a{
+	display: block;
+	width: 248px;
+	height: 146px;
+}
+.main7inr2 div span{
+	font-size: 17px;
+	color: #000;
+	display: block;
+	padding-left: 25px;
+	padding-top: 25px;
+}
+.main7inr2 div p{
+	font-size: 14px;
+	color: #f15453;
+	display: block;
+	padding-left: 25px;
+}
+.main7inr2 div img{
+	width: 90px;
+	height: 90px;
+}
+.main7inr21{
+	position: absolute;
+	top: 55px;
+	left: 155px;
+}
+.main7inr22{
+	position: absolute;
+	top: 55px;
+	left: 155px;
+}
+.main7inr23{
+	position: absolute;
+	top: 55px;
+	left: 155px;
+}
+.main7bottom{
+	width: 1230px;
+	height: 90px;
+	/*background: red;*/
+	margin-top: 10px;
+	float: left;
+}
+/*--------------------------------------------------------*/
+/*---------------------居家生活---------------------------*/
+.main8{
+	float: left;
+	width: 1229px;
+	height: 570px;
+	/*background: #f40;*/
+	margin-left: 45px;
+	margin-top: 30px;
+}
+.main8 .main8top{
+	width: 100%;
+	height: 30px;
+	/*background: blue;*/
+	float: left;
+}
+.main8 .main8top div{
+	width: 5px;
+	height: 20px;
+	float: left;
+	background: #64c333;
+}
+.main8 .main8top span{
+	float: left;
+	font-size: 16px;
+	color: #000;
+	margin-left: 10px;
+}
+.main8 .main8top p{
+	float: left;
+	font-size: 14px;
+	color: #000;
+	margin-left: 10px;
+	margin-top: 3px;
+}
+.main8 .main8top ul{
+	float: right;
+	margin-right: 10px;
+}
+.main8 .main8top ul li{
+	float: left;
+	margin-left: 24px;
+}
+.main8 .main8top ul li a{
+	font-size: 14px;
+	color: #000;
+	line-height: 30px;
+}
+.main8 .main8top ul li a:hover{
+	text-decoration: underline;
+}
+/*----------------------------------------------*/
+.main8inl{
+	width: 246px;
+	height: 440px;
+	background: #f40;
+	float: left;
+}
+.main8inl img{
+	width: 246px;
+	height: 440px;
+}
+/*----------------------------------------------*/
+.main8inr{
+	width: 735px;
+	height: 441px;
+	/*background: #f40;*/
+	float: left;
+	position: relative;
+}
+.main8inr div{
+	width: 244px;
+	height: 219px;
+	background: #fff;
+	border-top: 1px solid #f5f5f5;
+	border-right: 1px solid #f5f5f5;
+	float: left;
+	position: relative;
+}
+.main8inr div a{
+	display: block;
+	width: 244px;
+	height: 219px;
+}
+.main8inr div a span{
+	font-size: 17px;
+	color: #000;
+	display: block;
+	padding-left: 25px;
+	padding-top: 25px;
+}
+.main8inr div a p{
+	font-size: 14px;
+	color: #64c333;
+	display: block;
+	padding-left: 25px;
+}
+.main8inr .main8inr1{
+	width: 145px;
+	height: 145px;
+	position: absolute;
+	top: 75px;
+	left: 95px;
+}
+.main8inr .main8inr2{
+	width: 145px;
+	height: 145px;
+	position: absolute;
+	top: 75px;
+	left: 95px;
+}
+.main8inr .main8inr3{
+	width: 145px;
+	height: 145px;
+	position: absolute;
+	top: 75px;
+	left: 95px;
+}
+.main8inr .main8inr4{
+	width: 145px;
+	height: 145px;
+	position: absolute;
+	top: 75px;
+	left: 95px;
+}
+.main8inr .main8inr5{
+	width: 145px;
+	height: 145px;
+	position: absolute;
+	top: 75px;
+	left: 95px;
+}
+.main8inr .main8inr6{
+	width: 145px;
+	height: 145px;
+	position: absolute;
+	top: 75px;
+	left: 95px;
+}
+/*----------------------------------------------*/
+.main8inr2{
+	width: 248px;
+	height: 440px;
+	background: #fff;
+	float: left;
+	position: relative;
+}
+.main8inr2 div{
+	width: 248px;
+	height: 146px;
+	border-bottom: 1px solid #f5f5f5;
+	position: relative;
+}
+.main8inr2 div a{
+	display: block;
+	width: 248px;
+	height: 146px;
+}
+.main8inr2 div span{
+	font-size: 17px;
+	color: #000;
+	display: block;
+	padding-left: 25px;
+	padding-top: 25px;
+}
+.main8inr2 div p{
+	font-size: 14px;
+	color: #64c333;
+	display: block;
+	padding-left: 25px;
+}
+.main8inr2 div img{
+	width: 90px;
+	height: 90px;
+}
+.main8inr21{
+	position: absolute;
+	top: 55px;
+	left: 155px;
+}
+.main8inr22{
+	position: absolute;
+	top: 55px;
+	left: 155px;
+}
+.main8inr23{
+	position: absolute;
+	top: 55px;
+	left: 155px;
+}
+.main8bottom{
+	width: 1230px;
+	height: 90px;
+	/*background: red;*/
+	margin-top: 10px;
+	float: left;
+}
+/*--------------------------------------------------------*/
+/*---------------------潮电酷玩---------------------------*/
+.main9{
+	float: left;
+	width: 1229px;
+	height: 470px;
+	/*background: #f40;*/
+	margin-left: 45px;
+	margin-top: 30px;
+}
+.main9 .main9top{
+	width: 100%;
+	height: 30px;
+	/*background: blue;*/
+	float: left;
+}
+.main9 .main9top div{
+	width: 5px;
+	height: 20px;
+	float: left;
+	background: #0aa6e8;
+}
+.main9 .main9top span{
+	float: left;
+	font-size: 16px;
+	color: #000;
+	margin-left: 10px;
+}
+.main9 .main9top p{
+	float: left;
+	font-size: 14px;
+	color: #000;
+	margin-left: 10px;
+	margin-top: 3px;
+}
+.main9 .main9top ul{
+	float: right;
+	margin-right: 10px;
+}
+.main9 .main9top ul li{
+	float: left;
+	margin-left: 24px;
+}
+.main9 .main9top ul li a{
+	font-size: 14px;
+	color: #000;
+	line-height: 30px;
+}
+.main9 .main9top ul li a:hover{
+	text-decoration: underline;
+}
+/*----------------------------------------------*/
+.main9inl{
+	width: 246px;
+	height: 440px;
+	background: #f40;
+	float: left;
+}
+.main9inl img{
+	width: 246px;
+	height: 440px;
+}
+/*----------------------------------------------*/
+.main9inr{
+	width: 980px;
+	height: 441px;
+	/*background: #f40;*/
+	float: left;
+}
+.main9inr a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.main9inr1{
+	width: 489px;
+	height: 220px;
+	background: #fff;
+	float: left;
+	border-bottom: 1px solid #f5f5f5;
+	border-right: 1px solid #f5f5f5;
+	position: relative;
+}
+.main9inr1 span{
+	display: block;
+	height: 20px;
+	font-size: 22px;
+	color: #000;
+	margin-left: 50px;
+	margin-top: 40px;
+}
+.main9inr1 p{
+	display: block;
+	height: 20px;
+	font-size: 18px;
+	color: #000;
+	margin-left: 50px;
+	margin-top: 8px;
+}
+.main9inr1 h5{
+	display: block;
+	height: 20px;
+	font-size: 15px;
+	color: #0aa6e8;
+	margin-left: 50px;
+	margin-top: 5px;
+}
+.main9inr1 img{
+	width: 190px;
+	height: 190px;
+	position: absolute;
+	top:30px;
+	left: 280px;
+}
+.main9inr2{
+	width: 244px;
+	height: 220px;
+	float: left;
+	background: #fff;
+	border-bottom: 1px solid #f5f5f5;
+	border-right: 1px solid #f5f5f5;
+	position: relative;
+}
+.main9inr2 span{
+	font-size: 18px;
+	color: #000;
+	display: block;
+	margin-left: 20px;
+	margin-top: 25px;
+}
+.main9inr2 p{
+	font-size: 14px;
+	color: #0aa6e8;
+	display: block;
+	margin-left: 20px;
+}
+.main9inr2 img{
+	width: 150px;
+	height: 150px;
+	position: absolute;
+	top: 68px;
+	left:90px;
+}
+/*--------------------------------------------------------*/
+/*---------------------美丽人生---------------------------*/
+.main10{
+	float: left;
+	width: 1229px;
+	height: 570px;
+	/*background: #f40;*/
+	margin-left: 45px;
+	margin-top: 30px;
+}
+.main10 .main10top{
+	width: 100%;
+	height: 30px;
+	/*background: blue;*/
+	float: left;
+}
+.main10 .main10top div{
+	width: 5px;
+	height: 20px;
+	float: left;
+	background: #ea5f8d;
+}
+.main10 .main10top span{
+	float: left;
+	font-size: 16px;
+	color: #000;
+	margin-left: 10px;
+}
+.main10 .main10top p{
+	float: left;
+	font-size: 14px;
+	color: #000;
+	margin-left: 10px;
+	margin-top: 3px;
+}
+.main10 .main10top ul{
+	float: right;
+	margin-right: 10px;
+}
+.main10 .main10top ul li{
+	float: left;
+	margin-left: 24px;
+}
+.main10 .main10top ul li a{
+	font-size: 14px;
+	color: #000;
+	line-height: 30px;
+}
+.main10 .main10top ul li a:hover{
+	text-decoration: underline;
+}
+/*----------------------------------------------*/
+.main10inl{
+	width: 246px;
+	height: 440px;
+	background: #f40;
+	float: left;
+}
+.main10inl img{
+	width: 246px;
+	height: 440px;
+}
+/*----------------------------------------------*/
+.main10inr{
+	width: 735px;
+	height: 441px;
+	/*background: #f40;*/
+	float: left;
+	position: relative;
+}
+.main10inr div{
+	width: 244px;
+	height: 219px;
+	background: #fff;
+	border-top: 1px solid #f5f5f5;
+	border-right: 1px solid #f5f5f5;
+	float: left;
+	position: relative;
+}
+.main10inr div a{
+	display: block;
+	width: 244px;
+	height: 219px;
+}
+.main10inr div a span{
+	font-size: 17px;
+	color: #000;
+	display: block;
+	padding-left: 25px;
+	padding-top: 25px;
+}
+.main10inr div a p{
+	font-size: 14px;
+	color: #64c333;
+	display: block;
+	padding-left: 25px;
+}
+.main10inr .main10inr1{
+	width: 145px;
+	height: 145px;
+	position: absolute;
+	top: 75px;
+	left: 95px;
+}
+.main10inr .main10inr2{
+	width: 145px;
+	height: 145px;
+	position: absolute;
+	top: 75px;
+	left: 95px;
+}
+.main10inr .main10inr3{
+	width: 145px;
+	height: 145px;
+	position: absolute;
+	top: 75px;
+	left: 95px;
+}
+.main10inr .main10inr4{
+	width: 145px;
+	height: 145px;
+	position: absolute;
+	top: 75px;
+	left: 95px;
+}
+.main10inr .main10inr5{
+	width: 145px;
+	height: 145px;
+	position: absolute;
+	top: 75px;
+	left: 95px;
+}
+.main10inr .main10inr6{
+	width: 145px;
+	height: 145px;
+	position: absolute;
+	top: 75px;
+	left: 95px;
+}
+/*----------------------------------------------*/
+.main10inr2{
+	width: 248px;
+	height: 440px;
+	background: #fff;
+	float: left;
+	position: relative;
+}
+.main10inr2 div{
+	width: 248px;
+	height: 146px;
+	border-bottom: 1px solid #f5f5f5;
+	position: relative;
+}
+.main10inr2 div a{
+	display: block;
+	width: 248px;
+	height: 146px;
+}
+.main10inr2 div span{
+	font-size: 17px;
+	color: #000;
+	display: block;
+	padding-left: 25px;
+	padding-top: 25px;
+}
+.main10inr2 div p{
+	font-size: 14px;
+	color: #64c333;
+	display: block;
+	padding-left: 25px;
+}
+.main10inr2 div img{
+	width: 90px;
+	height: 90px;
+}
+.main10inr21{
+	position: absolute;
+	top: 55px;
+	left: 155px;
+}
+.main10inr22{
+	position: absolute;
+	top: 55px;
+	left: 155px;
+}
+.main10inr23{
+	position: absolute;
+	top: 55px;
+	left: 155px;
+}
+.main10bottom{
+	width: 1230px;
+	height: 90px;
+	/*background: red;*/
+	margin-top: 10px;
+	float: left;
+}
+/*--------------------------------------------------------*/
+/*---------------------品牌旗舰店---------------------------*/
+.main11{
+	width: 1232px;
+	height: 818px;
+	/*background: #f40;*/
+	float: left;
+	margin-left: 45px;
+	margin-top: 37px;
+}
+.main11top{
+	width: 100%;
+	height: 22px;
+	/*background: blue;*/
+	float: left;
+}
+.main11 .main11top span{
+	float: left;
+	font-size: 16px;
+	color: #000;
+	margin-left: 10px;
+}
+.main11 .main11top p{
+	float: left;
+	font-size: 14px;
+	color: #000;
+	margin-left: 10px;
+	margin-top: 3px;
+}
+.main11in{
+	width: 100%;
+	height: 694px;
+	/*background: #f40;*/
+	float: left;
+}
+.main11in div{
+	width: 614px;
+	height: 346px;
+	background: #f40;
+	float: left;
+	border:1px solid #f5f5f5;
+}
+.main11in2{
+	width: 100%;
+	height:90px;
+	float: left;
+	margin-top: 10px;
+	background: red;
+}
+.main11in2 img{
+	width: 100%;
+	height: 100%;
+}
+.main12{
+	margin-left: 45px;
+}
+/*------------------------------------------------------------*/
+/*----------------------猜你喜欢-------------------------*/
+.main13{
+	width: 1235px;
+	height: 666px;
+	margin-left: 40px;
+	background:#ffffff;
+}
+.main13 div{
+	width: 239px;
+	height: 319px;
+	border-left: 8px solid #f5f5f5;
+	border-bottom: 14px solid #f5f5f5;
+	float: left;
+}
+.main13 div img{
+	margin-left: 2px;
+	margin-top: 2px;
+	width: 235px;
+	height: 230px;
+}
+.main13 .one{
+	font-size: 12px;
+	color: #666666;
+	margin-left: 15px;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+.main13 .two{
+	font-size: 18px;
+	color: #ff0000;
+	margin-left: 15px;
+	margin-top: 10px;
+}
+.main14 img{
+	margin-left: 45px;
+}
+/*------------------------------------------------------------*/
+/*----------------------天猫底部内容-------------------------*/
+.foot{
+	width: 100%;
+	height: 558px;
+	border-top: 1px solid #d1d7dc;
+	background: #ffffff;
+	float: left;
+}
+/*------------------------------------------------------------*/
+.foot_top{
+	width: 100%;
+	height: 363px;
+/*	background: blue;*/
+}
+.foot_top .foot_top1{
+	width: 1190px;
+	height: 150px;
+	border-bottom: 1px solid #f5f5f5;
+	margin-left: 80px;
+}
+/*------------------------------------------------------------*/
+.foot_top .foot_top2{
+	width: 1190px;
+	height: 212px;
+/*	background: red;*/
+	margin-left: 80px;
+}
+/*------------------------------------------*/
+.foot_top .foot_top2 .foot_top2_left{
+	width: 950px;
+	height: 213px;
+/*	background: red;*/
+	margin-left: 50px;
+	float: left;
+}
+.foot_top .foot_top2 .foot_top2_left div{
+	width: 120px;
+	height: 213px;
+/*	background: blue;*/
+	float: left;
+	margin-right: 110px;
+}
+.foot_top .foot_top2 .foot_top2_left div p{
+	font-size: 18px;
+	color: #646464;
+	margin-top: 29px;
+}
+.foot_top .foot_top2 .foot_top2_left div li a{
+	font-size: 12px;
+	color: #8b8b8b;
+}
+/*------------------------------------------*/
+.foot_top .foot_top2 .foot_top2_right{
+	width: 150px;
+	height: 213px;
+/*	background: blue;*/
+	float: left;
+}
+.foot_top .foot_top2 .foot_top2_right img{
+	margin-top: 28px;
+}
+/*------------------------------------------------------------*/
+.foot_bottom{
+	width: 100%;
+	height: 193px;
+	background: black;
+	border-top: 2px solid #c40000;
+}
+/*------------------------------------------------------------*/
+.foot_bottom .foot_bottom1{
+	width: 600px;
+	height: 46px;
+/*	background: red;*/
+	margin-left: 79px;
+	float: left;
+}
+.foot_bottom .foot_bottom1 li{
+	float: left;
+	margin-right: 9px;
+}
+.foot_bottom .foot_bottom1 li a{
+	font-size: 12px;
+	color: #ffffff;
+    line-height: 46px;
+}
+/*----------------------------------------------*/
+.foot_bottom .foot_bottom2{
+	width: 1230px;
+	height: 28px;
+/*	background: red;*/
+	margin-left: 79px;
+	float: left;
+}
+.foot_bottom .foot_bottom2 li{
+	float: left;
+	margin-right: 5px;
+}
+.foot_bottom .foot_bottom2 li p{
+	font-size: 12px;
+	color: #ffffff;
+	line-height: 22px;
+}
+.foot_bottom .foot_bottom2 li a{
+	font-size: 12px;
+	color: #ffffff;
+}
+/*------------------------------------------------------------*/
+.foot_bottom .foot_bottom3{
+	width: 300px;
+	height: 20px;
+/*	background: red;*/
+	float: left;
+	margin-left: 79px;
+}
+.foot_bottom .foot_bottom3 p{
+	font-size: 12px;
+	color: #a4a4a4;
+	float: left;
+}
+.foot_bottom .foot_bottom3 span a{
+	font-size: 12px;
+	color: #a4a4a4;
+	float: left;
+}
+/*------------------------------------------------------------*/
+.foot_bottom .foot_bottom4{
+	width: 320px;
+	height: 20px;
+/*	background: green;*/
+	float: left;
+}
+.foot_bottom .foot_bottom4 p{
+	font-size: 12px;
+	color: #a4a4a4;
+	float: left;
+}
+.foot_bottom .foot_bottom4 span a{
+	font-size: 12px;
+	color: #a4a4a4;
+	float: left;
+}
+/*------------------------------------------------------------*/
+.foot_bottom .foot_bottom5{
+	width: 400px;
+	height: 20px;
+/*	background: red;*/
+	float: left;
+}
+.foot_bottom .foot_bottom5 p{
+	font-size: 12px;
+	color: #a4a4a4;
+	float: left;
+}
+/*------------------------------------------------------------*/
+.foot_bottom .foot_bottom6{
+	width: 1230px;
+	height: 20px;
+/*	background: blue;*/
+	float: left;
+	margin-left: 79px;
+}
+.foot_bottom .foot_bottom6 p{
+	font-size: 12px;
+	color: #a4a4a4;
+	float: left;
+}
+.foot_bottom .foot_bottom6 span a{
+	font-size: 12px;
+	color: #a4a4a4;
+	float: left;
+}
+/*------------------------------------------------------------*/
+.foot_bottom .foot_bottom7{
+	width:1230px;
+	height: 28px;
+	margin-left: 79px;
+	float: left;
+}
+.foot_bottom .foot_bottom7 p{
+	font-size: 12px;
+	color: #a4a4a4;
+	float: left;
+}
+/*------------------------------------------------------------*/
+.foot_bottom .foot_bottom8{
+	width: 220px;
+	height: 45px;
+	margin-left: 79px;
+	float: left;
+}
+.foot_bottom .foot_bottom8 img{
+	margin-right: 10px;
+}
+/*------------------------------------------------------------*/
+.dingwei{
+	position: fixed;
+	top:0px;
+	left: 1315px;
+}
+/*------------------------------------------------------------*/
+/*----------------------固定定位 隐藏框-----------------------*/
+.anniu{
+		width: 38px;
+		height: 370px;
+		background: #616161;
+		position: fixed;
+		left: -40px;
+		top: 180px;
+		padding: 0;
+		margin: 0;
+	}
+	.anniu li{
+		width: 26px;
+		height: 26px;
+        border-bottom:1px solid #fff;
+        border-left:1px solid #fff;
+        border-right:1px solid #fff;
+        list-style: none;  
+        color: #fff;
+        font-size: 12px;
+        /*line-height: 39px;*/
+        text-align: center;
+        padding:5px;
+        cursor: pointer;
+	}
+	.anniu li a{
+		color: #fff;
+        font-size: 14px;
+        text-align: center;
+	}
+	.red{
+		background: red;
+	}
+	.fanhui{
+		background: red;
+	}
+/*---------------------------顶部隐藏框-----------------------*/
+.dingbu{
+    	width: 100%;
+    	height: 50px;
+    	background:#de3232;
+    	position: fixed;
+    	top:-50px;
+    	left: 0;
+}
+.dingbu img{
+	float: left;
+}
+.inp1{
+	width: 651px;
+	height: 30px;
+	float: left;
+	margin-top: 12px;
+	border: none;
+	color: #666;
+}
+.inp2{
+	width: 89px;
+	height: 30px;
+	background: #c40000;
+	font-size: 18px;
+	color: #fff;
+	margin-top: 12px;
+	float: left;
+	border: none;
+	cursor: pointer;
+}
+/*---------------------------右边固定定位----------------------*/	
+.youdw{
+	width: 35px;
+	height: 641px;
+	background: #000;
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 150;
+	float: left;
+}
+.youdw1{
+	width: 35px;
+	height:45px;
+	margin-top: 161px;
+	float: left;
+}
+.youdw1 img{
+	margin-top:8px;
+}
+.youdw2{
+	width: 35px;
+	height:43px;
+	border-bottom: 1px solid #444;
+	float: left;
+}
+.youdw2 img{
+	margin-top:5px;
+}
+.youdw3{
+	width: 35px;
+	height: 105px;
+	border-bottom: 1px solid #444;
+	float: left;
+}
+.youdw3 a{
+	color: #fff;
+	font-size: 14px;
+	display: block;
+	width: 15px;
+	float: left;
+	margin-left: 10px;
+}
+.youdw3 a img{
+	margin-left: -10px;
+}
+.youdw4{
+	width: 35px;
+	height: 40px;
+	float: left;
+}
+.youdw5{
+	width: 35px;
+	height: 40px;
+	float: left;
+}
+.youdw6{
+	width: 35px;
+	height: 40px;
+	float: left;
+}
+.youdw7{
+	width: 35px;
+	height: 40px;
+	float: left;
+}
+.youdw8{
+	width: 35px;
+	height: 40px;
+	float: left;
+}
+.youdw9{
+	width: 35px;
+	height: 40px;
+	float: left;
+}
+.youdw10{
+	width: 35px;
+	height: 40px;
+	float: left;
+}
+.youdw1:hover{
+	background: #dd2727;
+}
+.youdw2:hover{
+	background: #dd2727;
+}
+.youdw3:hover{
+	background: #dd2727;
+}
+.youdw4:hover{
+	background: #dd2727;
+}
+.youdw5:hover{
+	background: #dd2727;
+}
+.youdw6:hover{
+	background: #dd2727;
+}
+.youdw7:hover{
+	background: #dd2727;
+}
+.youdw8:hover{
+	background: #dd2727;
+}
+.youdw9:hover{
+	background: #dd2727;
+}
+.youdw10:hover{
+	background: #dd2727;
+}
